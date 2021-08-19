@@ -1,7 +1,6 @@
 let url_call = "";
 let host_url = "http://localhost:8080/";
 let offset = 0;
-
 $('document').ready(function() {
 
   /*
@@ -11,7 +10,6 @@ $('document').ready(function() {
   url_call = "getData/";
 
   fetch_data(host_url+url_call+offset);
-
 
 });
 
